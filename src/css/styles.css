@@ -1,0 +1,111 @@
+*:focus {
+  outline: 0 !important;
+}
+
+.logo {
+  height: 100px;
+  margin-top: 10px;
+}
+
+.pokemonList {
+  margin-top: 50px;
+  padding-left: 0px;
+  list-style-type: none;
+}
+
+.pokemonNameModal {}
+
+.listOfNames {
+  font-family: 'Righteous', cursive;
+  text-transform: capitalize;
+  font-size: 2em;
+  margin-top: 10px;
+  margin-left: 25px;
+  border-bottom: 1px solid #000;
+}
+
+.navbar-brand {
+  color: #000;
+  padding-left: 15px;
+  height: 75px;
+  font-size: 2em;
+}
+
+.navbar-brand {
+  color: #000;
+  padding-left: 15px;
+  height: 75px;
+  font-size: 2em;
+}
+
+.pokemonButton,
+.modalButton {
+  /* overwrites browser defaults and resets the border */
+  border: none;
+  display: inline-block;
+  width: 25%;
+  color: #fff;
+  background: #fc9802;
+  padding: 10px;
+  margin: 3px;
+  border-radius: 5px;
+  font-size: 1.5em;
+  text-transform: capitalize;
+  width: 75%;
+}
+
+button :hover,
+:focus {
+  cursor: pointer;
+  opacity: 0.8;
+  text-decoration: none;
+}
+
+/***  Modal Styling  **/
+#modal-container {
+  position: fixed;
+  padding: 20px;
+  box-sizing: border-box;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  /* to show it above other content */
+  z-index: 999;
+  /* to allow scrolling if the screen is not high enough*/
+  overflow: auto;
+  /* this is used to center the modal */
+  display: none;
+  text-align: center;
+}
+
+.modal {
+  margin: auto;
+  display: inline-block;
+  box-sizing: border-box;
+  background: #fff;
+  padding: 15px;
+  width: 100%;
+  max-width: 700px;
+  text-align: left;
+  right: 0px;
+  opacity: 1;
+}
+
+.modal-close {
+  float: right;
+  -webkit-appearance: none;
+  border: 0;
+  background: none;
+  color: #777;
+  text-decoration: underline;
+}
+
+.modal h1 {
+  margin-top: 0;
+}
+
+.modal p {
+  margin-bottom: 0;
+}
